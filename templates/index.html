@@ -47,12 +47,11 @@
             max-width: 600px;
             height: 100vh;
             margin: 0 auto;
-            background-color: var(--chat-background);
+            background-color: var(--background-color);
             border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            background: var(--background-color);
         }
 
         /* Chat Box (for messages) */
@@ -175,6 +174,29 @@
                 font-size: 12px;
             }
         }
+
+        /* Footer Styles */
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background-color: #fafafa;
+            border-top: 1px solid #ddd;
+        }
+
+        .footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .footer a {
+            margin: 0 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -193,6 +215,15 @@
             <input id="query" type="text" placeholder="Ask me anything..." autocomplete="off">
             <button id="send-btn" onclick="sendMessage()">Send</button>
         </div>
+
+        <!-- Footer Links -->
+        <div class="footer" style="color: black;">
+            <p style="color: black;">Developed by Arastu Thakur</p>
+            <p>
+                <a href="https://github.com/arastuthakur" target="_blank" style="color: black; text-decoration: none;">GitHub</a> |
+                <a href="https://www.linkedin.com/in/arastuthakur/" target="_blank" style="color: black; text-decoration: none;">Connect on LinkedIn</a>
+            </p>
+        </div>        
     </div>
 
     <script>
