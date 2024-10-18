@@ -25,17 +25,17 @@ AgriBot is a web-based chatbot designed to assist users with agricultural querie
    ```bash
    git clone https://github.com/arastuthakur/agribot.git
    cd agribot
-'''
+
 2. Install the required dependencies:
-'''bash
+```bash
 pip install Flask flask-session langchain-google-genai langchain-community
-'''
-3. Set up your Google API Key and any other environment variables as needed.
-4. Run the application:
-'''bash
+```
+4. Set up your Google API Key and any other environment variables as needed.
+5. Run the application:
+```bash
 python app.py
-'''
-5. Open your web browser and navigate to http://127.0.0.1:5000.
+```
+7. Open your web browser and navigate to http://127.0.0.1:5000.
 ## Usage
 
 - Enter your questions in the input box and press "Send" or hit the "Enter" key to receive responses from the AgriBot.
